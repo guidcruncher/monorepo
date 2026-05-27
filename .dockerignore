@@ -1,0 +1,52 @@
+# ==========================================
+# Dependencies & Package Managers
+# ==========================================
+**/node_modules
+.pnpm-store
+.pnpm-debug.log*
+
+# ==========================================
+# Build Artifacts & Monorepo Caches
+# ==========================================
+**/dist
+**/build
+**/.next
+**/.turbo
+**/.nuxt
+**/.docusaurus
+**/*.tsbuildinfo
+
+# ==========================================
+# Secrets, Environment Variables & Configs
+# ==========================================
+**/.env
+**/.env.*
+!**/.env.example   # Allow example files for reference
+**/*.pem
+**/*.key
+
+# ==========================================
+# Quality Assurance & Tooling Caches
+# ==========================================
+**/.eslintcache
+**/.prettiercache
+**/coverage
+**/.nyc_output
+**/*.log
+
+# ==========================================
+# System & Editor Files
+# ==========================================
+.git
+.github
+.vscode
+.idea
+**/.DS_Store
+Thumbs.db
+
+# ==========================================
+# Documentation
+# ==========================================
+README.md
+**/README.md
+docs/
